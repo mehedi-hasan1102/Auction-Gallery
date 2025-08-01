@@ -1,13 +1,51 @@
-# React + Vite
+# Auction Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based application scaffolded with Vite and styled using Tailwind CSS and DaisyUI. This project includes development tools such as ESLint and supports hot-reloading, linting, and build optimization.
 
-Currently, two official plugins are available:
+## 🚀 Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mehedi-hasan1102/Auction-Gallery
+   cd Auction-Gallery
+   ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# b11a7-auction-gallery-HasanCodeX
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📜 Available Scripts
+
+- `npm run dev` – Start the development server
+- `npm run build` – Build the app for production
+- `npm run preview` – Preview the production build locally
+- `npm run lint` – Run ESLint to analyze and fix code issues
+
+## 🧱 Project Structure
+
+- `src/` – Application source code
+- `public/` – Static assets
+- `vite.config.js` – Vite configuration
+- `tailwind.config.js` – Tailwind configuration
+- `.eslintrc` – ESLint configuration
+
+## 🛠️ Tech Stack
+
+- **React 19**
+- **Vite 6**
+- **Tailwind CSS 4**
+- **DaisyUI**
+- **React Icons**
+- **React Toastify**
+- **ESLint**
+- **PostCSS & Autoprefixer**
+
+## 📄 License
+
+This project is **private** and not intended for public distribution.
